@@ -1,0 +1,309 @@
+body{
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #007bff;
+}
+
+.alignment{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.aa{
+    margin-top: 20px;
+}
+
+.dado{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #3d5d8f;
+    margin-bottom: 10px;
+    color: #3d5d8f;
+}
+
+.dado:hover{
+    color: white;
+    background-color: #3d5d8f;
+}
+
+.space{
+    margin: 5px;
+}
+
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #007bff;
+    align-content: center;
+}
+
+td{
+    color: #3d5d8f;
+}
+tr{
+    color: #3d5d8f;
+}
+
+.volta{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    border-color: red;
+    width: 30%;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.volta:hover{
+    color: white;
+    background-color: red;
+}
+
+.buttons_alignment{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.formulario{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.div1{
+    width: 50%;
+}
+
+.total{
+    width: 100%;
+}
+
+.campo{
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    border-color: #3d5d8f;
+    border-style: solid;
+    border-left: white;
+    border-right: white;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #007bff;
+}
+
+.frmlogin{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+h1{
+    color: #3d5d8f;
+}
+label{
+    color: #3d5d8f;
+}
+
+.frmcadastro{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.selequiti{
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.link{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    color: #007bff;
+    border-color: #007bff;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.item{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    border-color: #007bff;
+}
+
+select{
+    color: #007bff;
+    border-color: #007bff;
+    text-align: center;
+}
+
+.controle{
+    background-color: #007bff;
+    color: white;
+    padding: 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.sequition{
+    display: flex;
+    align-content: flex-start;
+    width: 100%;
+}
+
+.espaco{
+    padding-right: 40px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.item {
+    text-align: center;
+    width: 10%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    background: white;
+    height: 1px;
+    padding-top: 60px;
+    align-content: center;
+
+}.container2 {
+     display: flex;
+     background: white;
+     height: 100px;
+     padding-top: 10px;
+     align-content: center;
+ }
+
+.flex-center {
+    align-items: center;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+p{
+    color: #007bff;
+}
+
+.select{
+    color: #007bff;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 10px;
+    background-color: white;
+    align-self: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    background: white;
+    height: 10%;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.order {
+    display: flex;
+    align-content: center;
+}
+
+.lista{
+    width: auto;
+    align-self: center;
+    justify-self: center;
+}
+
+
+
+.input {
+
+    border-color: #007bff;
+    color: #007bff;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    width: 100%;
+    height:40px;
+}
+
+.button2{
+    margin: 30px;
+    height: 40px;
+}
+
+.button2{
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 40px;
+}
+
+.title{
+    color: #007bff;
+    margin-bottom: 40px;
+}

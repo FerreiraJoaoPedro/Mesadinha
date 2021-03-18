@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mesadinha</title>
+    <!-- lincar com meu css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/flex.css">
+</head>
+<body>
+<section class="container space-between flex-center">
+    <section class="container">
+        <div class="item">Controle Finaceiro Pessoal</div>
+        <div class="item"><a href="Index.html">Home</a></div>
+        <select name="Conta" onchange="location = this.value;">
+            <option value="Dashborde.html">Usuarios</option>
+            <option value="Perfil.html" >Perfil</option>
+            <option value="AlteraSenha.html" >Altera senha</option>
+        </select>
+        <select name="Conta" onchange="location = this.value;">
+            <option value="Dashborde.html">Gerenciar Cadastros</option>
+            <option value="GerenciarCategorias.html" >Categoria</option>
+            <option value="GerenciarContas.html" >Contas</option>
+        </select>
+        <div class="item"><a href="GerenciarLancamentos.html">Lancamentos</a></div>
+    </section>
+    <section class="container">
+        <div class="item"><a href="Index.html">imagem</a></div>
+    </section>
+</section>
+
+<section class="container space-between flex-center">
+    <div class="main"> <!-- div principal do site-->
+        <div class="frmlogin">
+            <h1 class="text-center">Receitas</h1>
+            <div class="form-group">
+                <H1>R$ 0.00</H1>
+            </div>
+        </div>
+    </div>
+
+    <div class="main"> <!-- div principal do site-->
+        <div class="frmlogin">
+            <h1 class="text-center">Despesa</h1>
+            <div class="form-group">
+                <H1>R$ 0.00</H1>
+            </div>
+        </div>
+    </div>
+
+    <div class="main"> <!-- div principal do site-->
+        <div class="frmlogin">
+            <h1 class="text-center">Saldo</h1>
+            <div class="form-group">
+                <H1>R$ 0.00</H1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container space-between">
+    <div class="main"> <!-- div principal do site-->
+        <div class="frmlogin">
+            <h1 class="text-center">Cadastro de Contas</h1>
+            <div class="form-group">
+                <div>
+                </div>
+                <div>
+                    <label>Conta</label>
+                    <select name="Conta" onchange="location = this.value;">
+                        <option value="Conta"></option>
+                    </select>
+                </div>
+                <div>
+                    <label for="GValor">Valor</label>
+                    <input type="text" id="GValor" name="categoria" class="form-control" required><br>
+                </div>
+                <div>
+                    <button class="btn btn-outline-success">Salvar</button>
+                    <a class="btn btn-outline-primary">Alterar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container lista"> <!-- div principal do site-->
+        <div class="row">
+            <div class="col-lg-12">
+                <table class="table table-dark">
+                    <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Tipo</th>
+                        <th>Data</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <a class="btn btn-outline-success"><i class="fa fa-edit"></i></a>
+                            <a class="btn btn-outline-danger"><i class="fa fa-trash"></i></a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

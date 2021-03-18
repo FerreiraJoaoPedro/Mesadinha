@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mesadinha</title>
+    <!-- lincar com meu css-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/flex.css">
+</head>
+<body>
+<section class="container1 space-between">
+    <section class="container1 space-between">
+        <div class="item">Controle Finaceiro Pessoal</div>
+        <div class="item"><a href="Home.html">Home</a></div>
+        <select class="item" onchange="location = this.value;">
+            <option >Usuarios</option>
+            <option value="TabelaUsuarios.php">Ver Usuarios</option>
+            <option value="Perfil.html" >Perfil</option>
+            <option value="Alterar.php" >Altera Dados</option>
+        </select>
+        <select class="item" name="Conta" onchange="location = this.value;">
+            <option value="Dashborde.html">Gerenciar Cadastros</option>
+            <option value="GerenciarCategorias.html" >Categoria</option>
+            <option value="GerenciarContas.html" >Contas</option>
+        </select>
+        <div class="item"><a href="GerenciarLancamentos.html">Lancamentos</a></div>
+    </section>
+    <section>
+        <div class="item"><a href="Index.php">imagem</a></div>
+    </section>
+</section>
+
+
+<section class="distanciaV">
+    <div class="distanciaV"> <!-- div principal do site-->
+        <div class="frmlogin">
+            <h1 class="text-center">Receitas</h1>
+            <div class="form-group">
+                <H1>R$ 0.00</H1>
+            </div>
+        </div>
+    </div>
+
+    <div class="distanciaV"> <!-- div principal do site-->
+        <div class="frmlogin">
+            <h1 class="text-center">Despesa</h1>
+            <div class="form-group">
+                <H1>R$ 0.00</H1>
+            </div>
+        </div>
+    </div>
+
+    <div class="distanciaV"> <!-- div principal do site-->
+        <div class="frmlogin">
+            <h1 class="text-center">Saldo</h1>
+            <div class="form-group">
+                <H1>R$ 0.00</H1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="distanciaP"> <!-- div principal do site-->
+    <div class="frmcadastro">
+        <h1 class="text-center">Perfil</h1>
+        <form>
+            <div class="form-group">
+                <h3>Nome: </h3>
+            </div>
+
+            <div class="form-group">
+                <h3>Sexo: </h3>
+            </div>
+
+            <div class="form-group">
+                <h3>Endereço: </h3>
+            </div>
+
+            <div class="form-group">
+                <h3>Telefone: </h3>
+            </div>
+
+            <div class="form-group">
+                <h3>E-mail: </h3>
+            </div>
+
+            <div class="form-group">
+                <h3>Senha: </h3>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="js/estilo.js"></script>
+</body>
+</html>
